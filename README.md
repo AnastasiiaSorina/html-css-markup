@@ -23,7 +23,7 @@ To run app use
 
 - [x] Developed website structure.
 - [x] Developed website layout.
-- [] Started the implementation of the layout, the creation of basic components.
+- [ ] Started the implementation of the layout, the creation of basic components.
   ### MVP:
   - [] Navigation component.
   - [] Servic Item component.
