@@ -23,16 +23,16 @@ To run app use
 
 - [x] Developed website structure.
 - [x] Developed website layout.
-- [ ] Started the implementation of the layout, the creation of basic components.
+- [x] Started the implementation of the layout, the creation of basic components.
   ### MVP:
-  - [ ] Navigation component.
+  - [x] Navigation component.
   - [ ] Servic Item component.
   - [ ] Section Description component.
-  - [ ] Footer component.
-  - [ ] 404 pege.
+  - [x] Footer component.
+  - [x] 404 pege.
   
 - [ ] Home page:
-    -  [ ] Hero section.
+    -  [x] Hero section.
     -  [ ] Services preview section.
     -  [ ] Gallery section.
     -  [ ] GetInTuch section.
