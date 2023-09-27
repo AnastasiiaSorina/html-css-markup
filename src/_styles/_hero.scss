@@ -1,0 +1,50 @@
+.hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: $layout-spacing-lg;
+  position: relative;
+
+  .image-hero {
+    max-width: $size-unit * 161; // 644px
+    margin-top: -150px;
+    z-index: -20;
+  }
+
+  .icon {
+    @include triangle-icon;
+  }
+
+  .header-4 {
+    @include h4-font;
+    color: $main-pink;
+  }
+
+  .hero-section {
+    height: 100%;
+    position: relative;
+    .hero-description {
+      margin-left: 25%;
+      max-width: $size-unit * 114; //456px
+      h2 {
+        @include h2-font;
+        margin-top: $size-unit * 3; //12px
+        margin-bottom: $size-unit * 8; //32px
+      }
+
+      p {
+        @include paragraph-font;
+        margin-bottom: $size-unit * 15; // 60px
+      }
+    }
+  }
+  .background-spot {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.hero-description::before {
+  @include background-spot;
+}

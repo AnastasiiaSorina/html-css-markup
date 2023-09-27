@@ -1,0 +1,140 @@
+@mixin paragraph-font {
+  color: $grey-60; //  #989cac
+  font-family: "Mulish";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 33.6px */
+
+  @media (min-width: $breakpoint-md) {
+  }
+}
+
+@mixin label-font {
+  text-align: center;
+  font-family: "Mulish";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 25.6px */
+  text-transform: capitalize;
+  color: $white-10;
+
+  @media (min-width: $breakpoint-md) {
+  }
+}
+
+@mixin label-font-sm {
+  font-family: "Raleway";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  text-transform: capitalize;
+  @media (min-width: $breakpoint-md) {
+  }
+}
+
+@mixin h1-font {
+  @media (min-width: $breakpoint-sm) {
+  }
+
+  @media (min-width: $breakpoint-md) {
+  }
+}
+
+@mixin h2-font {
+  color: $white;
+  font-family: "Raleway";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+  text-transform: capitalize;
+
+  @media (min-width: $breakpoint-sm) {
+  }
+}
+
+@mixin h3-font {
+  color: $grey-60; // #989cac
+  text-align: center;
+
+  /* Description text */
+  font-family: "Mulish";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+}
+
+@mixin h4-font {
+  font-family: "Mulish";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 19.2px */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: $main-pink;
+
+  @media (max-width: $breakpoint-sm) {
+  }
+
+  @media (min-width: $breakpoint-md) {
+  }
+}
+
+@mixin font-decoration-sm {
+  color: var(--color-label-sm);
+  font-family: "Raleway";
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%; /* 120px */
+  text-transform: uppercase;
+
+  @media (min-width: $breakpoint-md) {
+  }
+}
+
+@mixin font-decoration-lg {
+  color: var(--color-label-lg);
+  text-align: right;
+  font-family: "Raleway";
+  font-size: 230px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%; /* 230px */
+  text-transform: uppercase;
+}
+
+@mixin caption {
+  color: $grey-60; //  #989cac
+  font-family: "Mulish";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  @media (max-width: $breakpoint-sm) {
+  }
+
+  @media (min-width: $breakpoint-md) {
+  }
+}
+
+@mixin h1-font-404 {
+  color: $main-pink;
+  font-family: "Raleway";
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 120px */
+  text-transform: uppercase;
+
+  @media (max-width: $breakpoint-sm) {
+  }
+
+  @media (min-width: $breakpoint-sm) {
+  }
+}

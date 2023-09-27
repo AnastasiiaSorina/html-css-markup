@@ -1,0 +1,26 @@
+.social-media {
+  display: flex;
+  flex-direction: column;
+  max-width: 16px;
+
+  &.position-row {
+    flex-direction: row;
+
+    li {
+      margin-left: $size-unit * 6; // 24px
+    }
+  }
+
+  li {
+    margin-bottom: $size-unit * 5; // 20px
+
+    span {
+      color: $white;
+      opacity: 0.5;
+    }
+  }
+
+  .social-media-line {
+    text-align: center;
+  }
+}

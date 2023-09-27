@@ -1,0 +1,6 @@
+@mixin triangle-icon {
+  width: $size-unit * 4; // 16px
+  height: $size-unit * 4; // 16px
+  transform: rotate(165deg);
+  margin-right: $size-unit * 2; // 8px
+}

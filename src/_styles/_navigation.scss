@@ -1,0 +1,44 @@
+.navigation {
+  margin-top: $size-unit * 12; // 48px
+  padding-right: $size-unit * 25; // 100px
+
+  & > .row {
+    margin-left: 40px;
+  }
+
+  .nav-menu-wrap {
+    display: flex;
+  }
+
+  .nav-feedback-wrap {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+  }
+
+  .mob-number {
+    display: flex;
+    align-items: center;
+    margin-left: $size-unit * 4; // 12px;
+  }
+
+  .nav-button {
+    border: $border-unit * 2 solid rgba(255, 255, 255, 0.5);
+    padding: $size-unit * 3 $size-unit * 10; // 12px 40px
+    transition: all 0.5s ease-out;
+    margin-left: $size-unit * 12; // 48px;
+
+    span {
+      opacity: 1;
+      color: $white-10;
+      transition: all 0.5s ease-out;
+    }
+
+    &:hover {
+      border: $border-unit * 2 solid rgba(255, 255, 255, 0.8);
+      span {
+        opacity: 0.8;
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  display: flex;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+@media (min-width: $breakpoint-sm) {
+  .container {
+    padding-left: $layout-padding-sm;
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .container {
+    padding-left: $layout-padding-md;
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .container {
+    padding-left: $layout-padding-lg;
+  }
+}
+
+.column {
+  flex: none;
+
+  &.center {
+    margin: 0 auto;
+  }
+
+  @for $i from 1 through $grid-columns {
+    &.column-#{$i} {
+      width: percentage(math.div($i, $grid-columns));
+    }
+  }
+
+  // Column defs for SM size (SM breakpoint and up)
+  @media (min-width: $breakpoint-sm) {
+    @for $i from 1 through $grid-columns {
+      &.column-sm-#{$i} {
+        width: percentage(math.div($i, $grid-columns));
+      }
+    }
+  }
+
+  // Column defs for MD size (MD breakpoint and up)
+  @media (min-width: $breakpoint-md) {
+    @for $i from 1 through $grid-columns {
+      &.column-md-#{$i} {
+        width: percentage(math.div($i, $grid-columns));
+      }
+    }
+  }
+
+  // Column defs for LG size (LG breakpoint and up)
+  @media (min-width: $breakpoint-lg) {
+    @for $i from 1 through $grid-columns {
+      &.column-lg-#{$i} {
+        width: percentage(math.div($i, $grid-columns));
+      }
+    }
+  }
+}

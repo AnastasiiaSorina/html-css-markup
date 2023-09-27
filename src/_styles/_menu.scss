@@ -1,0 +1,45 @@
+.menu {
+  width: 100%;
+
+  .menu-items {
+    .menu-link {
+      display: flex;
+    }
+  }
+
+  .social-media-line {
+    color: $white;
+    opacity: 0.5;
+    text-align: center;
+    transform: rotate(90deg);
+    margin-left: 32px;
+  }
+
+  @media (min-width: $breakpoint-sm) {
+    .menu-wrap {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+
+      .menu-items {
+        display: flex;
+        align-content: center;
+        margin-left: $size-unit * 8; // 32px
+        transition: all 0.8s ease-out;
+        border-bottom: inset $border-unit transparent; // 1px
+        opacity: 0.5;
+
+        &:hover {
+          opacity: 1;
+        }
+
+        .menu-link {
+          color: $white;
+          align-items: center;
+          cursor: pointer;
+          @include h4-font;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+// Layout
+$layout-max-width: 1360px;
+// Default (Up to SM size: 576px)
+$layout-padding-sm: 16px;
+$layout-padding-md: 40px;
+$layout-padding-lg: 80px;
+
+// Layout spacing
+$layout-margin: 16px;
+$layout-spacing: 28px; //$layout-spacing
+
+// SM and up (> 576px)
+$layout-margin-sm: 38px;
+$layout-spacing-sm: 28px; //$layout-spacing
+
+// LG and up (> 992px)
+$layout-margin-lg: 148px; // +
+$layout-spacing-lg: 54px; // +
+
+// Layout breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1200px;
+
+// Colors
+$black: #0d0f16;
+$black-60: #0f1118;
+
+$black-20: #b3b3b3;
+
+$grey-60: #989cac;
+$grey-40: #737373;
+$grey-20: #969696;
+
+$white-60: rgba(217, 217, 217, 0.6);
+$white-10: #f5f9fa;
+$white: #ffffff;
+
+$main-pink: #ff455b;
+$orange: #ff7245;
+
+// Sizes
+$border-unit: 1px;
+$size-unit: 4px;
+
+$grid-columns: 12;

@@ -1,0 +1,14 @@
+.contacts {
+  & > p {
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .contacts {
+  }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .contacts {
+  }
+}

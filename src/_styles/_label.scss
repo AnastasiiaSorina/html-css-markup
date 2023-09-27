@@ -1,0 +1,45 @@
+.label-sm {
+  @include font-decoration-sm;
+  position: absolute;
+  z-index: 15;
+}
+
+.label-sm::before {
+  content: "Digital";
+  @include font-decoration-lg;
+  position: absolute;
+  top: 50px;
+  z-index: -10;
+  --color-label-sm: $black;
+  opacity: 0.25;
+}
+
+.direction-top {
+}
+
+.direction-bottom {
+}
+
+.rotation-turn {
+  transform: rotate(-90deg);
+}
+
+.rotation-smooth {
+  transform: rotate(0deg);
+}
+
+.label-hero-1 {
+  color: $black;
+  bottom: $size-unit * 47; // 188px
+  left: -($size-unit * 28); // -112px
+}
+
+.label-hero-2 {
+  color: $white;
+  top: $size-unit * 30; // 120px
+  left: $size-unit * 97; // 388px;
+}
+.label-hero-2 + .label-sm::before {
+  opacity: 0.03;
+  --color-label-lg: $white;
+}
