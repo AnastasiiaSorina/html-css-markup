@@ -4,9 +4,6 @@ const HomePage = () => {
   return (
     <div className="home-page">
       <Hero />
-      {/* <Projects />
-      <RestAPI /> */}
-      {/* <Contacts /> */}
     </div>
   );
 };

@@ -3,7 +3,7 @@
   padding-right: $size-unit * 25; // 100px
 
   & > .row {
-    margin-left: 40px;
+    margin-left: $size-unit * 10; // 40px
   }
 
   .nav-menu-wrap {

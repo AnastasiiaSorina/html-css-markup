@@ -1,7 +1,7 @@
 .social-media {
   display: flex;
   flex-direction: column;
-  max-width: 16px;
+  max-width: $size-unit * 4; // 16px
 
   &.position-row {
     flex-direction: row;

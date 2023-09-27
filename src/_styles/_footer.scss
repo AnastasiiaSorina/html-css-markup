@@ -2,12 +2,12 @@
   flex-direction: column;
   position: relative;
   width: 100%;
-  margin-bottom: 104px;
+  margin-bottom: $size-unit * 26; // 104px
   padding-right: $size-unit * 20; // 80px
 
   .footer-line {
-    padding-bottom: 40px;
-    border-bottom: 2px solid $white;
+    padding-bottom: 3rem;
+    border-bottom: $border-unit solid $white;
     opacity: 0.05;
   }
 
@@ -25,7 +25,7 @@
 }
 
 .footer-section-info {
-  margin-top: 53px;
+  margin-top: $size-unit * 13; // 52px
 }
 
 .footer-section {
@@ -38,7 +38,7 @@
   }
 
   .footer-info {
-    width: 162px;
+    width: $size-unit * 40; // 162px
 
     h6 {
       @include label-font-sm;
@@ -60,11 +60,13 @@
     }
   }
 }
+
 @media (min-width: $breakpoint-sm) {
   .footer {
     padding-top: $size-unit * 37; // 148px
   }
 }
+
 @media (min-width: $breakpoint-md) {
   .footer {
     padding-top: $size-unit * 23; // 92px

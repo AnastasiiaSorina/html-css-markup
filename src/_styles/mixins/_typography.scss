@@ -126,7 +126,7 @@
 @mixin h1-font-404 {
   color: $main-pink;
   font-family: "Raleway";
-  font-size: 120px;
+  font-size: $size-unit * 30; // 120px
   font-style: normal;
   font-weight: 700;
   line-height: 100%; /* 120px */
