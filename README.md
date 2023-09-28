@@ -27,7 +27,7 @@ To run app use
   ### MVP:
   - [x] Navigation component.
   - [ ] Servic Item component.
-  - [ ] Section Description component.
+  - [x] Section Description component. [189ce27](https://github.com/AnastasiiaSorina/html-css-markup/pull/2/commits/189ce27eebfed92ec795e111969096bb830bb448)
   - [x] Footer component.
   - [x] 404 pege.
   
