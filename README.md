@@ -26,7 +26,7 @@ To run app use
 - [x] Started the implementation of the layout, the creation of basic components.
   ### MVP:
   - [x] Navigation component.
-  - [ ] Service Item component.
+  - [x] Service Item component. [30891c7](https://github.com/AnastasiiaSorina/html-css-markup/pull/3/commits/30891c7b71dde1430b3985dc39edccca9a4d6833)
   - [x] Section Description component. [189ce27](https://github.com/AnastasiiaSorina/html-css-markup/pull/2/commits/189ce27eebfed92ec795e111969096bb830bb448)
   - [x] Footer component.
   - [x] 404 pege.
