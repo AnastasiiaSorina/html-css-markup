@@ -6,6 +6,7 @@ import NoMachPage from "@pages/NoMachPage";
 import { Fragment } from "react";
 import { Route, Routes } from "react-router-dom";
 import "../src/_styles/index.scss";
+import ServicesPreview from "./components/navigation/ServicesPreview";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
               <Route path="/" element={<HomePage />} />
             <Route path="*" element={<NoMachPage />} />
             </Routes>
+            <ServicesPreview />
           </section>   
           <MainFooter />
     </Fragment>

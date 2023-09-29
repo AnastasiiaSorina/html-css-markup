@@ -8,7 +8,7 @@ import { FunctionComponent } from "react";
 import Button from "./navigation/Button";
 import Label from "./navigation/Label";
 
-const Hero: FunctionComponent = ({contentSm, contentLg, className,}
+const Hero: FunctionComponent = ({}
 ) => {
   return (
     <Container className="hero">
@@ -31,7 +31,6 @@ const Hero: FunctionComponent = ({contentSm, contentLg, className,}
           </section>
         </Column>
       </Row>
-     
     </Container>
   );
 };
