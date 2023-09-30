@@ -1,6 +1,7 @@
-import Hero from "@components/Hero";
-import ServicesPreview from "@components/navigation/ServicesPreview";
-import GalleryPortfolio from "../components/GalleryPortfolio";
+import Hero from "@components/home-page/Hero";
+import ServicesPreview from "@components/home-page/ServicesPreview";
+import GalleryPortfolio from "../components/home-page/GalleryPortfolio";
+import ProductsSection from "../components/home-page/ProductsSection";
 
 const HomePage = () => {
   return (
@@ -8,6 +9,7 @@ const HomePage = () => {
       <Hero />
       <ServicesPreview />
       <GalleryPortfolio />
+      <ProductsSection />
     </div>
   );
 };

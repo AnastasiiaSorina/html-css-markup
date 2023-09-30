@@ -8,7 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import "../src/_styles/index.scss";
 import Column from "./components/layout/Column";
 import Row from "./components/layout/Row";
-import ServicesPreview from "./components/navigation/ServicesPreview";
+import ServicesPreview from "./components/home-page/ServicesPreview";
 
 const App = () => {
   return (

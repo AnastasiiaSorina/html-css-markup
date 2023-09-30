@@ -13,10 +13,17 @@
     max-width: $size-unit * 161; // 644px
     margin-top: -($size-unit * 37); // -148px
     z-index: -20;
+
+    img {
+      width: 100%;
+    }
   }
 
   .hero-section {
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .background-spot {
