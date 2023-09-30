@@ -21,7 +21,7 @@ const MainFooter: FunctionComponent = () => {
       <Row className="footer-section-info">
         <Column size={5} >
           <SocialMedia position="row" />
-        <p>© All rights reserved. Digens 2020</p>
+        <p>&copy; All rights reserved. Digens 2020</p>
         </Column>
           
         <Column size={7} className="footer-section">

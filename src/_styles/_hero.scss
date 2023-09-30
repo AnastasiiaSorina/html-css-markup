@@ -11,7 +11,7 @@
 
   .image-hero {
     max-width: $size-unit * 161; // 644px
-    margin-top: -150px;
+    margin-top: -($size-unit * 37); // -148px
     z-index: -20;
   }
 

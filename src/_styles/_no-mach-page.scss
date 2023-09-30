@@ -40,13 +40,13 @@
 
     input {
       background-color: transparent;
-      width: 330px;
-      height: 20px;
-      margin: 15px 30px;
+      width: $size-unit * 82; // 328px
+      height: $size-unit * 5; // 20px
+      margin: $size-unit * 4 $size-unit * 7; // 12px 28px
     }
 
     img {
-      margin-right: 16px;
+      margin-right: $size-unit * 4; // 16px
       margin-top: auto;
     }
   }

@@ -2,8 +2,7 @@
   padding: $size-unit * 3 $size-unit * 7; // 12px 28px
   transition: all 0.5s ease-out;
   background: linear-gradient(90deg, #ff455b 0%, #ff7245 100%);
-  width: 149px;
-  height: 50px;
+  width: $size-unit * 37; // 149px
   cursor: pointer;
 
   button {
