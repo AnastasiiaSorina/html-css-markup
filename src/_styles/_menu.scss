@@ -34,10 +34,10 @@
         }
 
         .menu-link {
+          @include h4-font;
           color: $white;
           align-items: center;
           cursor: pointer;
-          @include h4-font;
         }
       }
     }

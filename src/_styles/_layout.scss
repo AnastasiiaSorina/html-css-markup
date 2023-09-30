@@ -5,25 +5,17 @@
 
 .row {
   display: flex;
+
   width: 100%;
 }
 
 @media (min-width: $breakpoint-sm) {
-  .container {
-    padding-left: $layout-padding-sm;
-  }
 }
 
 @media (min-width: $breakpoint-md) {
-  .container {
-    padding-left: $layout-padding-md;
-  }
 }
 
 @media (min-width: $breakpoint-lg) {
-  .container {
-    padding-left: $layout-padding-lg;
-  }
 }
 
 .column {

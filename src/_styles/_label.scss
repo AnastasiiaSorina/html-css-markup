@@ -2,16 +2,17 @@
   @include font-decoration-sm;
   position: absolute;
   z-index: 15;
+  transform-origin: 0;
 }
 
 .label-sm::before {
   content: "Digital";
   @include font-decoration-lg;
   position: absolute;
-  top: 50px;
   z-index: -10;
   --color-label-sm: $black;
   opacity: 0.25;
+  transform-origin: 0;
 }
 
 .direction-top {
@@ -30,14 +31,14 @@
 
 .label-hero-1 {
   color: $black;
-  bottom: $size-unit * 47; // 188px
-  left: -($size-unit * 28); // -112px
+  bottom: -($size-unit * 17); // -68px
+  left: $size-unit * 10; // 40px
 }
 
 .label-hero-2 {
   color: $white;
-  top: $size-unit * 30; // 120px
-  left: $size-unit * 97; // 388px;
+  top: $size-unit * 112; // 448px
+  left: $size-unit * 159; // 636px;
 }
 .label-hero-2 + .label-sm::before {
   opacity: 0.03;

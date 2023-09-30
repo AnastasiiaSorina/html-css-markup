@@ -4,8 +4,13 @@
   background: linear-gradient(90deg, #ff455b 0%, #ff7245 100%);
   width: 149px;
   height: 50px;
+  cursor: pointer;
 
   button {
     @include label-font;
   }
+}
+
+.button-none {
+  display: none;
 }

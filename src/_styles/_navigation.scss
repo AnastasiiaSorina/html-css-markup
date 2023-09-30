@@ -14,6 +14,12 @@
     display: flex;
     justify-content: flex-end;
     align-content: center;
+
+    a {
+      display: flex;
+      align-content: center;
+      cursor: pointer;
+    }
   }
 
   .mob-number {
@@ -27,6 +33,7 @@
     padding: $size-unit * 3 $size-unit * 10; // 12px 40px
     transition: all 0.5s ease-out;
     margin-left: $size-unit * 12; // 48px;
+    cursor: pointer;
 
     span {
       opacity: 1;

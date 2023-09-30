@@ -5,6 +5,10 @@
   margin-top: $layout-spacing-lg;
   position: relative;
 
+  .hero-wrap {
+    position: relative;
+  }
+
   .image-hero {
     max-width: $size-unit * 161; // 644px
     margin-top: -150px;
@@ -16,10 +20,11 @@
   }
 
   .background-spot {
-    position: absolute;
-    bottom: 0;
+    @include background-spot-svg;
     right: 0;
   }
+
+  // Background spot
   .section-description::before {
     @include background-spot;
     left: 0;

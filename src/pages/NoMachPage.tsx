@@ -1,6 +1,6 @@
 import Container from "@components/layout/Container";
 import SearchIcon from "@public/assets/search-icon.svg";
-import TriangleGroup from "@public/assets/triangle-grop.svg";
+import TriangleGroup from "@public/assets/triangle-group.svg";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 

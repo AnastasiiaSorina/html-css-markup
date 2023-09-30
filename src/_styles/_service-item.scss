@@ -1,0 +1,46 @@
+.service-item {
+  padding: $size-unit * 13 $size-unit * 10; // 52px 40px
+  max-width: $size-unit * 75; // 300px
+  height: $size-unit * 105; // 420px
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: $border-unit * 2 solid rgba(248, 248, 252, 0.1);
+
+  .service-item-icons {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: end;
+    max-width: $size-unit * 31; // 124px
+    margin-bottom: $size-unit * 11; // 44px
+
+    .service-item-triangle {
+      max-width: 100%;
+    }
+    .service-item-icon {
+      position: absolute;
+      max-width: $size-unit * 12; // 48px
+    }
+  }
+
+  h3 {
+    @include h5-font;
+    margin-bottom: $size-unit * 4; // 16px
+  }
+
+  p {
+    @include service-description;
+    margin-bottom: $size-unit * 13; // 52
+  }
+
+  .arrow {
+    width: $size-unit * 7; // 28px;
+  }
+
+  h3,
+  p,
+  .arrow {
+    margin-left: $size-unit * 4; //16px
+  }
+}

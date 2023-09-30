@@ -14,8 +14,9 @@ const Navigation: FunctionComponent = () => {
           <Logo />
         </Column>
         <Column size={6} sizeSM={7} className="nav-feedback-wrap">
-<div></div>
-          <img id="mobile-svg" src={MobileSvg} />
+          <a href="tel:+15471258965">
+            <img id="mobile-svg" src={MobileSvg} />
+          </a>
           <span className="mob-number">+1 547 125 89 65</span>
           <a className="nav-button"><span>Get A Quote</span></a>
         </Column>

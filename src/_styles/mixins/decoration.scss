@@ -4,3 +4,10 @@
   transform: rotate(165deg);
   margin-right: $size-unit * 2; // 8px
 }
+
+@mixin background-spot-svg {
+  position: absolute;
+  bottom: 0;
+  fill: #0d0f16;
+  filter: drop-shadow(-20px -20px 50px 0 rgba(0, 0, 0, 0.2));
+}

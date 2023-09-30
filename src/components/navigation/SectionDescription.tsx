@@ -7,6 +7,7 @@ interface ISectionDescriptionProps {
   sectionTittle: string;
   sectionDescription: string;  
   className?: string;
+  buttonOff?: string;
  
 }
 
@@ -15,6 +16,7 @@ const SectionDescription: FunctionComponent<ISectionDescriptionProps> = ({
   sectionTittle,
   sectionDescription,
   className,
+  buttonOff,
   
 }) => {
   return (
@@ -25,7 +27,7 @@ const SectionDescription: FunctionComponent<ISectionDescriptionProps> = ({
               <span className="header-4">{sectionHeader}</span>
               <h2>{sectionTittle}</h2>
               <p>{sectionDescription}</p>
-              <Button />
+              <Button className={buttonOff}/>
             </div>
         </section>
     </Fragment>
