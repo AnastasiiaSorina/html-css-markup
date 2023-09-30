@@ -1,0 +1,21 @@
+.services-preview {
+  margin: $size-unit * 65 0; // 260px 0
+  position: relative;
+
+  .items {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-between;
+  }
+
+  .background-spot1 {
+  }
+}
+
+// Background spot
+.services-preview::before {
+  @include background-spot;
+  left: -30%;
+  top: -50%;
+}

@@ -7,8 +7,14 @@ Goal:
 
 Frontend developer [@AnastasiiaSorina](https://github.com/AnastasiiaSorina)
 
-To run app use
-`npm run dev`
+## How to launch the application:
+
+1. First use
+   `npm instal`
+2. To run app use
+   `npm run dev`
+3. Then go to the link:
+   http://localhost:4000/
 
 # Project life cycle:
 
@@ -23,9 +29,20 @@ To run app use
 
 - [x] Developed website structure.
 - [x] Developed website layout.
-- [] Started the implementation of the layout, the creation of basic components.
-- [] Home page.
-- [] About us page.
-- [] Services page.
-- [] ServiceDetails page.
-- [] ContactUs page.
+- [x] Started the implementation of the layout, the creation of basic components.
+  ### MVP:
+  - [x] Navigation component.
+  - [x] Service Item component. [30891c7](https://github.com/AnastasiiaSorina/html-css-markup/pull/3/commits/30891c7b71dde1430b3985dc39edccca9a4d6833)
+  - [x] Section Description component. [189ce27](https://github.com/AnastasiiaSorina/html-css-markup/pull/2/commits/189ce27eebfed92ec795e111969096bb830bb448)
+  - [x] Footer component.
+  - [x] 404 page.
+- [ ] Home page:
+  - [x] Hero section.
+  - [x] Services preview section. [5474e49](https://github.com/AnastasiiaSorina/html-css-markup/pull/3/commits/5474e49f14791cf3329c2806689106710d28dfc8)
+  - [ ] Gallery section.
+  - [ ] GetInTouch section.
+  - [ ] Products section.
+- [ ] About us page.
+- [ ] Services page.
+- [ ] ServiceDetails page.
+- [ ] ContactUs page.

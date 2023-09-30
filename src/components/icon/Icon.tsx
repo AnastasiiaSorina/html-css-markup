@@ -41,11 +41,11 @@ const Icon: FunctionComponent<IIconProps> = ({
       title={title}
       data-type={type}
       onClick={handleOnClick}
-      style={color ? { color } : {}}
+      
     >
-      <svg viewBox={boxSize} width={size} height={size}>
+      <svg viewBox={boxSize} width={size} height={size} >
         {type && ICON_TYPES[type] !== null ? (
-          <path d={ICON_TYPES[type]} />
+          <path  d={ICON_TYPES[type]} />
         ) : (
           <path d={ICON_TYPES["logo"]} />
         )}
@@ -59,4 +59,5 @@ Icon.defaultProps = {
   boxSize: "0 0 20 20",
 };
 
-export { Icon, IIconProps, IconType };
+export { IIconProps, Icon, IconType };
+

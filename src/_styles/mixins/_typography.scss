@@ -10,6 +10,16 @@
   }
 }
 
+@mixin service-description {
+  color: $grey-60; // #989cac
+  /* body text */
+  font-family: "Mulish";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
 @mixin label-font {
   text-align: center;
   font-family: "Mulish";
@@ -83,6 +93,15 @@
 
   @media (min-width: $breakpoint-md) {
   }
+}
+
+@mixin h5-font {
+  font-family: "Raleway";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  text-transform: capitalize;
 }
 
 @mixin font-decoration-sm {

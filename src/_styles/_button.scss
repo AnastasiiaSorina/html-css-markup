@@ -3,8 +3,13 @@
   transition: all 0.5s ease-out;
   background: linear-gradient(90deg, #ff455b 0%, #ff7245 100%);
   width: $size-unit * 37; // 149px
+  cursor: pointer;
 
   button {
     @include label-font;
   }
+}
+
+.button-none {
+  display: none;
 }

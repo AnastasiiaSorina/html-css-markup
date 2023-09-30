@@ -2,12 +2,18 @@
   display: flex;
   flex-direction: column;
   max-width: $size-unit * 4; // 16px
+  cursor: pointer;
+
 
   &.position-row {
     flex-direction: row;
+    cursor: pointer;
 
     li {
       margin-left: $size-unit * 6; // 24px
+      a {
+        cursor: pointer;
+      }
     }
   }
 

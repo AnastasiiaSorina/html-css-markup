@@ -1,0 +1,44 @@
+.section-description {
+  height: 100%;
+  position: relative;
+  margin-left: 25%;
+  max-width: $size-unit * 114; //456px
+
+  .wrap {
+    .icon {
+      @include triangle-icon;
+    }
+
+    .header-4 {
+      @include h4-font;
+      color: $main-pink;
+    }
+
+    h2 {
+      @include h2-font;
+      margin-top: $size-unit * 3; //12px
+      margin-bottom: $size-unit * 8; //32px
+    }
+
+    p {
+      @include paragraph-font;
+      margin-bottom: $size-unit * 15; // 60px
+    }
+  }
+}
+
+.direction-none {
+  .section-description::before {
+    display: none;
+  }
+}
+.direction-right {
+  .section-description::before {
+    right: 0;
+  }
+}
+.direction-left {
+  .section-description::before {
+    left: 0;
+  }
+}
