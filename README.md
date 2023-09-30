@@ -38,7 +38,7 @@ Frontend developer [@AnastasiiaSorina](https://github.com/AnastasiiaSorina)
   - [x] 404 page.
 - [ ] Home page:
   - [x] Hero section.
-  - [ ] Services preview section.
+  - [x] Services preview section. [5474e49](https://github.com/AnastasiiaSorina/html-css-markup/pull/3/commits/5474e49f14791cf3329c2806689106710d28dfc8)
   - [ ] Gallery section.
   - [ ] GetInTouch section.
   - [ ] Products section.
