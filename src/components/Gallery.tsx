@@ -1,7 +1,7 @@
 import Triangle from "@public/assets/triangle.svg";
 import { FunctionComponent } from "react";
 import Column from "./layout/Column";
-import Label from "./navigation/Label";
+import Label from "./Label";
 import Row from "./layout/Row";
 
 interface IGalleryProps {

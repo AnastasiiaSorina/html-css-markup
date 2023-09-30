@@ -1,7 +1,8 @@
 .section-description {
+  display: flex;
   height: 100%;
   position: relative;
-  margin-left: 25%;
+  // margin-left: 25%;
   max-width: $size-unit * 114; //456px
 
   .wrap {
