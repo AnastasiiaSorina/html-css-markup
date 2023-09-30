@@ -6,7 +6,7 @@
 }
 
 .label-sm::before {
-  content: "Digital";
+  content: attr(data-title);
   @include font-decoration-lg;
   position: absolute;
   z-index: -10;
@@ -40,7 +40,19 @@
   top: $size-unit * 112; // 448px
   left: $size-unit * 159; // 636px;
 }
+
 .label-hero-2 + .label-sm::before {
   opacity: 0.03;
   --color-label-lg: $white;
+}
+
+.label-gallery {
+  color: $black;
+  position: absolute;
+  bottom: -64px;
+  right: -324px;
+}
+
+.label-gallery::before {
+  top: -144px;
 }

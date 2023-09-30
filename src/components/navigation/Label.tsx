@@ -5,11 +5,12 @@ type Direction = "top" | "bottom";
 
 interface ILabelProps {
   contentSm: string;
-  contentLg: string; 
+  contentLg: string;
   direction?: Direction;
   rotation?: Rotation;
   className?: string;
- 
+  colorSm?: string;
+  colorLg?: string;
 }
 
 const Label: FunctionComponent<ILabelProps> = ({
@@ -18,15 +19,17 @@ const Label: FunctionComponent<ILabelProps> = ({
   direction,
   rotation,
   className,
-  
 }) => {
   return (
     <Fragment>
-      <p data-title={`${contentLg}`} className={`label-sm ${className != null ? className : ""} ${direction === "top" ? "direction-top" : ""} ${
-          direction === "bottom" ? "direction-bottom" : ""
-        } ${rotation === "turn" ? "rotation-turn" : ""} ${
-          rotation === "smooth" ? "rotation-smooth" : ""
-        }`}>{`${contentSm}`}</p>
+      <p
+        data-title={`${contentLg}`}
+        className={`label-sm ${className != null ? className : ""} ${
+          direction === "top" ? "direction-top" : ""
+        } ${direction === "bottom" ? "direction-bottom" : ""} ${
+          rotation === "turn" ? "rotation-turn" : ""
+        } ${rotation === "smooth" ? "rotation-smooth" : ""}`}
+      >{`${contentSm}`}</p>
     </Fragment>
   );
 };

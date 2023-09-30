@@ -18,17 +18,15 @@ const App = () => {
           <SideBar />
         </Column>
         <Column size={11}>
-            <Navigation />
-            <Routes>
-              <Route path="/" element={<HomePage />} />
+          <Navigation />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
             <Route path="*" element={<NoMachPage />} />
-            </Routes>
-            <ServicesPreview /> 
-            <MainFooter /> 
+          </Routes>
+          <MainFooter />
         </Column>
-        </Row>
-        
-      </Fragment>
+      </Row>
+    </Fragment>
   );
 };
 
