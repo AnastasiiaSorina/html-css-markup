@@ -1,0 +1,30 @@
+.product-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+
+  .product-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      margin-left: $size-unit * 5; // 20px
+      position: absolute;
+    }
+  }
+
+  .description {
+    margin-left: $size-unit * 8; // 32px
+    max-width: $size-unit * 54; // 216px
+
+    h6 {
+      @include h5-font;
+      margin-bottom: $size-unit * 2; // 8px
+    }
+
+    p {
+      @include service-description;
+    }
+  }
+}
