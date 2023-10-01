@@ -56,3 +56,14 @@
 .label-gallery::before {
   top: -144px;
 }
+
+.label-blog {
+  color: $white;
+  position: absolute;
+  bottom: 0;
+  right: -580px;
+}
+
+.label-blog::before {
+  top: -140px;
+}
