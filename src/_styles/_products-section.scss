@@ -9,8 +9,14 @@
 
   .products-section {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding-top: 20%;
+
+    .products-items {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
   }
 }
