@@ -8,15 +8,20 @@
   }
 
   .products-section {
+    margin-top: $size-unit * 20; // 80px
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-top: 20%;
 
     .products-items {
       display: flex;
       flex-direction: column;
-      width: 100%;
+
+      .row {
+        justify-content: center;
+        margin-bottom: $size-unit * 12; // 48px
+      }
     }
   }
 }

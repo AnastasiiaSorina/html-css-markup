@@ -49,7 +49,7 @@ const ProductsSection: FunctionComponent = ({}) => {
           />
         </Column>
 
-        <Column size={9} className="products-section">
+        <Column size={7} className="products-section">
           <SectionDescription
             buttonOff={"button-none"}
             sectionHeader={productsHeader}
