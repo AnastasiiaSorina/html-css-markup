@@ -27,8 +27,7 @@
   }
 
   .background-spot {
-    @include background-spot-svg;
-    right: 0;
+    bottom: -260px;
   }
 
   // Background spot

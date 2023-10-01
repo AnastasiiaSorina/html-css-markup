@@ -61,7 +61,7 @@ const ServicesPreview: FunctionComponent = () => {
         <img
           src={BackgroundSpot2}
           alt="site-decoration"
-          className="background-spot"
+          className="background-spot "
         />
       </Row>
     </Fragment>

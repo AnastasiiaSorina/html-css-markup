@@ -1,6 +1,6 @@
 .get-in-touch {
-  margin: $size-unit * 36 0; // 144px 0
-  padding: 0 15%;
+  padding: $size-unit * 36 15%;
+  position: relative;
 
   h2 {
     @include h6-font;
