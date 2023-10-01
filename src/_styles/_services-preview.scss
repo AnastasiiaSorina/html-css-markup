@@ -7,6 +7,14 @@
     flex-direction: row;
     padding: 30px;
     justify-content: space-between;
+
+    .background-spot {
+      bottom: -260px;
+      @include background-spot-svg;
+      width: 120%;
+      left: -10%;
+      z-index: -3;
+    }
   }
 }
 

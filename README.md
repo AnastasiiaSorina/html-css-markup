@@ -41,7 +41,7 @@ Frontend developer [@AnastasiiaSorina](https://github.com/AnastasiiaSorina)
   - [x] Hero section.
   - [x] Services preview section. [5474e49](https://github.com/AnastasiiaSorina/html-css-markup/pull/3/commits/5474e49f14791cf3329c2806689106710d28dfc8)
   - [x] Gallery section. [3c3258a](https://github.com/AnastasiiaSorina/html-css-markup/pull/4/commits/3c3258a0716277487e9c160a14ca9c5e4c3c4af3)
-  - [ ] GetInTouch section.
+  - [x] GetInTouch section.[22de6ec](https://github.com/AnastasiiaSorina/html-css-markup/pull/9/commits/22de6ecff4ecbf45dc1f1636049bf804e5799b34)
   - [x] Products section. [3573cad](https://github.com/AnastasiiaSorina/html-css-markup/pull/5/commits/3573cadcff2213ef6c737f29c59322052543f426) [d4e6c62](https://github.com/AnastasiiaSorina/html-css-markup/pull/6/commits/d4e6c621072c6c214369074e4b63fb3902e3997e)
 - [ ] About us page.
 - [ ] Services page.

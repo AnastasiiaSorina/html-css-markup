@@ -3,6 +3,7 @@ import ServicesPreview from "@components/home-page/ServicesPreview";
 import GalleryPortfolio from "../components/home-page/GalleryPortfolio";
 import ProductsSection from "../components/home-page/ProductsSection";
 import BlogSection from "../components/BlogSection";
+import GetInTouchSection from "../components/GetInTouchSection.";
 
 const HomePage = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage = () => {
       <Hero />
       <ServicesPreview />
       <GalleryPortfolio />
+      <GetInTouchSection />
       <ProductsSection />
       <BlogSection />
     </div>
