@@ -1,0 +1,40 @@
+.blog-item {
+  width: 100%;
+  margin-left: $size-unit * 3; // 12px
+
+  .blog-img {
+    margin-bottom: $size-unit * 10; // 40px
+
+    img {
+      width: 100%;
+    }
+  }
+
+  p {
+    @include paragraph-font;
+    color: $white;
+    text-transform: capitalize;
+  }
+
+  .blog-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: $size-unit * 5; // 20px
+
+    img {
+      cursor: pointer;
+    }
+
+    span {
+      @include service-description;
+    }
+  }
+
+  .blog-button {
+    .arrow {
+      margin-top: $size-unit * 9; // 36px
+      cursor: pointer;
+    }
+  }
+}

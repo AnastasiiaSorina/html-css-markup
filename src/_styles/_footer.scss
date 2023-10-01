@@ -2,7 +2,7 @@
   flex-direction: column;
   position: relative;
   width: 100%;
-  margin-bottom: $size-unit * 26; // 104px
+  padding-bottom: $size-unit * 26; // 104px
   padding-right: $size-unit * 20; // 80px
 
   .footer-line {
@@ -70,6 +70,7 @@
 @media (min-width: $breakpoint-md) {
   .footer {
     padding-top: $size-unit * 23; // 92px
+    background-color: $black-60;
   }
 }
 
