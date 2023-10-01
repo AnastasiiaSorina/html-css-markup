@@ -1,0 +1,53 @@
+.get-in-touch {
+  margin: $size-unit * 36 0; // 144px 0
+  padding: 0 15%;
+
+  h2 {
+    @include h6-font;
+    margin-bottom: $size-unit * 5; // 20px
+  }
+  p {
+    @include service-description;
+  }
+
+  .subscribe-wrap {
+    padding-left: $size-unit * 15; // 60px
+
+    .checkbox-wrap {
+      span {
+        @include caption;
+        margin-left: 8px;
+
+        .highlight {
+          color: $main-pink;
+        }
+      }
+    }
+    .checkbox {
+      cursor: pointer;
+      width: 13px;
+      height: 13px;
+      background-color: transparent;
+      border: 2px solid rgba(248, 248, 252, 0.1);
+    }
+
+    form {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: $size-unit * 3; // 12px
+
+      input {
+        max-width: 478px;
+        margin-right: $size-unit * 5; // 20px
+        background-color: transparent;
+        width: $size-unit * 82; // 328px
+        height: $size-unit * 5; // 20px
+        padding: $size-unit * 4 $size-unit * 7; // 12px 28px
+        align-items: center;
+        border: $border-unit solid $grey-60;
+        border: $border-unit * 2 solid rgba(248, 248, 252, 0.1);
+        height: $size-unit * 13; //52px
+      }
+    }
+  }
+}

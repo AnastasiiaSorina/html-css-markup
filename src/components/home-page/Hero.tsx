@@ -39,6 +39,7 @@ const Hero: FunctionComponent = ({}) => {
               sectionHeader={heroHeader}
               sectionTittle={heroTittle}
               sectionDescription={heroDescription}
+              buttonName={"Get more"}
             />
             <img
               src={BackgroundSpot}

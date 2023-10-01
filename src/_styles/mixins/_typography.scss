@@ -104,6 +104,18 @@
   text-transform: capitalize;
 }
 
+@mixin h6-font {
+  color: #fff;
+
+  /* headings/H3 */
+  font-family: "Raleway";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 41.6px */
+  text-transform: capitalize;
+}
+
 @mixin font-decoration-sm {
   color: var(--color-label-sm);
   font-family: "Raleway";
