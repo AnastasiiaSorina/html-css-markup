@@ -3,7 +3,7 @@
 Goal:
 
 1. Create a site markup. main pages.
-   Design: https://www.figma.com/file/QAy9wkEw6SdexJR8Bqi28o/Digens---Digital-Agency-Figma-UI-Template?node-id=626%3A1428&mode=dev
+   Design: [Figma](https://www.figma.com/file/QAy9wkEw6SdexJR8Bqi28o/Digens---Digital-Agency-Figma-UI-Template?node-id=626%3A1428&mode=dev)
 
 Frontend developer [@AnastasiiaSorina](https://github.com/AnastasiiaSorina)
 
