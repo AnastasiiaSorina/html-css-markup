@@ -47,3 +47,5 @@ Frontend developer [@AnastasiiaSorina](https://github.com/AnastasiiaSorina)
 - [ ] Services page.
 - [ ] ServiceDetails page.
 - [ ] ContactUs page.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e1b7265b-1a9e-4cb5-94b4-e7e12bac3c38/deploy-status)](https://app.netlify.com/sites/cozy-gecko-c2739e/deploys)
