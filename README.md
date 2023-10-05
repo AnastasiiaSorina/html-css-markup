@@ -6,7 +6,7 @@ Goal:
    Design: [Figma](https://www.figma.com/file/QAy9wkEw6SdexJR8Bqi28o/Digens---Digital-Agency-Figma-UI-Template?node-id=626%3A1428&mode=dev)
 
 Frontend developer [@AnastasiiaSorina](https://github.com/AnastasiiaSorina)
-
+## Deploy: [preview here](https://sparkly-bublanina-2feada.netlify.app/)
 ## How to launch the application:
 
 1. First use
