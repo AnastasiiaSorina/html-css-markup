@@ -25,7 +25,7 @@ Frontend developer [@AnastasiiaSorina](https://github.com/AnastasiiaSorina)
 - Typescript
 - React
 
-## Stage 1 **Deadline October 2 2023**
+## Stage 1 
 
 - [x] Developed website structure.
 - [x] Developed website layout.
